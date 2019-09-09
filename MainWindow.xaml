@@ -1,0 +1,24 @@
+﻿<Window x:Class="Calculadora_ISR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora_ISR"
+        mc:Ignorable="d"
+        Title="Calculadora ISR" Height="255.982" Width="800">
+    <Grid Background="Black" Margin="0,0,-6.4,-2.6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="547*"/>
+            <ColumnDefinition Width="246*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="163*"/>
+            <RowDefinition Height="54*"/>
+        </Grid.RowDefinitions>
+        <TextBox Name="txtSueldoMensual" HorizontalAlignment="Left" Height="45" Margin="47,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="459"/>
+        <Label FontSize="24" Content="Ingresa tu sueldo mensual" HorizontalAlignment="Left" Margin="47,50,0,0" VerticalAlignment="Top" Height="40" Width="301"/>
+        <Button FontSize="24" Name="btnISR" Content="Calcular ISR" HorizontalAlignment="Left" Margin="9.8,96,0,0" VerticalAlignment="Top" Width="148" Height="45" Grid.Column="1" Click="BtnISR_Click"/>
+        <Label Foreground="DodgerBlue" FontSize="24" Name="Result" HorizontalAlignment="Left" Margin="327,0,0,0" Grid.Row="1" VerticalAlignment="Top" Height="42" Width="135"/>
+        <Label FontSize="24" Content="ISR" HorizontalAlignment="Left" Margin="258,0,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="3.477,0.489"/>
+    </Grid>
+</Window>
