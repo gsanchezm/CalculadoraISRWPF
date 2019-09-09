@@ -15,10 +15,11 @@
             <RowDefinition Height="163*"/>
             <RowDefinition Height="54*"/>
         </Grid.RowDefinitions>
-        <TextBox Name="txtSueldoMensual" HorizontalAlignment="Left" Height="45" Margin="47,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="459"/>
+        <TextBox TextAlignment="Right" MaxLength="12" Name="txtSueldoMensual" HorizontalAlignment="Left" Height="45" Margin="47,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="459" 
+                 PreviewTextInput="TxtSueldoMensual_PreviewTextInput" PreviewKeyDown="TxtSueldoMensual_PreviewKeyDown" FontSize="24" Foreground="Yellow"/>
         <Label FontSize="24" Content="Ingresa tu sueldo mensual" HorizontalAlignment="Left" Margin="47,50,0,0" VerticalAlignment="Top" Height="40" Width="301"/>
         <Button FontSize="24" Name="btnISR" Content="Calcular ISR" HorizontalAlignment="Left" Margin="9.8,96,0,0" VerticalAlignment="Top" Width="148" Height="45" Grid.Column="1" Click="BtnISR_Click"/>
-        <Label Foreground="DodgerBlue" FontSize="24" Name="Result" HorizontalAlignment="Left" Margin="327,0,0,0" Grid.Row="1" VerticalAlignment="Top" Height="42" Width="135"/>
+        <Label Foreground="DodgerBlue" FontSize="24" Name="Result" HorizontalAlignment="Left" Margin="327,0,0,0" Grid.Row="1" VerticalAlignment="Top" Height="42" Width="383" Grid.ColumnSpan="2"/>
         <Label FontSize="24" Content="ISR" HorizontalAlignment="Left" Margin="258,0,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="3.477,0.489"/>
     </Grid>
 </Window>

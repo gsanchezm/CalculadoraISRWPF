@@ -22,3 +22,4 @@ C:\Users\gilsa\source\repos\Calculadora_ISR\obj\Debug\Calculadora_ISR.csproj.Cor
 C:\Users\gilsa\source\repos\Calculadora_ISR\obj\Debug\Calculadora_ISR.csproj.CopyComplete
 C:\Users\gilsa\source\repos\Calculadora_ISR\obj\Debug\Calculadora_ISR.exe
 C:\Users\gilsa\source\repos\Calculadora_ISR\obj\Debug\Calculadora_ISR.pdb
+C:\Users\gilsa\source\repos\Calculadora_ISR\obj\Debug\Calculadora_ISR.csprojAssemblyReference.cache
